@@ -8,4 +8,8 @@ public class Addition {
 		int sum = a + b;
 		System.out.println("The sum of " + a + " and " + b + " is: " + sum);
 	}
+	
+	public static int multiply(int x, int y, int z) {
+		return x * y * z;
+	}
 }
